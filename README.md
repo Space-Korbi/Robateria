@@ -61,13 +61,15 @@ In order to change the functionality there are several different classes to cons
 * Wifi
 
 All the Wifi functionality can be found in BooksViewController.swift. We begin by initializing the view and setting up the initial url under which we can access the robot. It is simply the ip-address: 192.168.1.1
-After that we send a request with that url via a hidden webView. By clicking on any of the books all we do is refresh the url and send a  new request to the webView. 
-
+After that we send a request with that url via a hidden webView. 
 
 ![bildschirmfoto 2018-02-02 um 23 04 21](https://user-images.githubusercontent.com/32970755/35757295-b4630712-086e-11e8-9b67-c50c63325f70.png)
 
-The robot recieves the new url request and executes the logic, that is connected with that request. In case of the first book the url is 192.168.1.1/1. If more functionality is added to the robot, you simply have to change the url in the app to match the url that is connected with the added functionality.
+By clicking on any of the books all we do is refresh the url and send a  new request to the webView. The robot recieves the new url request and executes the logic, that is connected with that request. In case of the first book the url is 192.168.1.1/1. If more functionality is added to the robot, you simply have to change the url in the app to match the url that is specified in the code in energia.
 
 * Bluetooth
+If you like a detailed look on how the Bluetooth connection works look at these tutorials:
 
+If you want to add more functionality to it, you can do so in CommunicationViewController.swift. Simply add, delete or change the books and the coordinates (Note: changing the names of the books in this class will not change the names displayed to the user). Each book has its own function in which it takes the coordinates from the array of books, creates a data object and sends that data object to the robot.
+Since there is no functionality in the project zero example to handle the coordinates, the robot is not doing anything. So far, controlling the LED is the only functionlity supported.
 
