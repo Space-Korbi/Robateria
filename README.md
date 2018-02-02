@@ -1,9 +1,9 @@
 # Robateria
-This repository is one part of a two part project. The first part explains how to set up a robot that can guide you to a shelf in a prototype library. The Source code dor the robot can be found here: https://github.com/hejazifar/Robateria
-This part is the source code for the Robateria app, which serves as a user interface. The app lets you connect to the MSP432P401R LaunchPad via Wifi or Bluetooth. After connecting to the MSP432 you can select a book in order for the robot to guide you to the shelf.
+This repository is one part of a two part project. The first part explains how to set up a robot that can guide you to a shelf in a prototype library. The Source code for the robot can be found here: https://github.com/hejazifar/Robateria
+This repository contains the source code for the Robateria app, which serves as a user interface. The app lets you connect to the MSP432P401R LaunchPad via Wifi or Bluetooth. After connecting to the MSP432 you can select a book on your iPhone. The robot will then guide you to the corresponding shelf.
 
 ## Getting Started
-Download or clone this repository to your Mac and open the Robateria.xcodeproj.
+Download or clone this repository to your Mac and open the Robateria.xcodeproj in Xcode.
 
 ## Setup of MSP432
 In order to comunicate with the MSP432 you need one of two booster packs:
@@ -13,7 +13,7 @@ To connect via Wifi to the MSP432P401R we have to use the CC3100 BoosterPack.
 Run the Energia code from part one of this project after setting up the hardware: https://github.com/hejazifar/Robateria
 
 * The CC2650 module (Bluetooth)
-To connect to the MSP432P401R over Bluetooth we have to connect the CC2650 module to it. Since Bluetooth is not supported by Energia we have to use Code Composer Studio (CCS) and the project zero example from TI to communicate with the MSP432 LaunchPad. The project zero example can be found in the TI resource explorer at the following path: 
+To connect to the MSP432P401R over Bluetooth we have to use the CC2650 module. Since Bluetooth is not supported by Energia we are using Code Composer Studio (CCS) and the project zero example from TI to communicate with the MSP432. The project zero example can be found in the TI resource explorer: 
 
 ![project_zero](https://user-images.githubusercontent.com/32970755/35755294-f7d04d1e-0866-11e8-8029-a2177587e0cf.png)
 
