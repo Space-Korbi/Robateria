@@ -90,49 +90,49 @@ class BooksViewController: UIViewController {
     }
 
     @IBAction func rightButton5(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/10")
+        let url = URL(string:"http://192.168.1.1/T0")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func leftButton6(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/11")
+        let url = URL(string:"http://192.168.1.1/T1")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func rightButton6(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/12")
+        let url = URL(string:"http://192.168.1.1/T2")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func leftButton7(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/13")
+        let url = URL(string:"http://192.168.1.1/T3")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func rightButton7(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/14")
+        let url = URL(string:"http://192.168.1.1/T4")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func leftButton8(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/15")
+        let url = URL(string:"http://192.168.1.1/T5")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func rightButton8(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/16")
+        let url = URL(string:"http://192.168.1.1/T6")
         let request = URLRequest(url: url!)
 
         webView.load(request)

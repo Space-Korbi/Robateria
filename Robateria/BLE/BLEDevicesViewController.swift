@@ -85,7 +85,7 @@ class BLEDevicesViewController : UIViewController, CBCentralManagerDelegate, CBP
         deviceTable.reloadData()
     }
 
-    //-Terminate Connection
+    //Terminate Connection
     func disconnectFromDevice () {
         if selectedDevice != nil {
             centralManager?.cancelPeripheralConnection(selectedDevice!)
@@ -136,7 +136,6 @@ class BLEDevicesViewController : UIViewController, CBCentralManagerDelegate, CBP
 
         //Discovery callback
         peripheral.delegate = self
-        //Only look for services that matches transmit uuid
         //TODO: replace nil, with array of service UUIDs that we need to discover
         peripheral.discoverServices(nil)
 
@@ -170,7 +169,6 @@ class BLEDevicesViewController : UIViewController, CBCentralManagerDelegate, CBP
         centralManager.cancelPeripheralConnection(selectedDevice!)
     }
 
-    
     func peripheral(_ peripheral: CBPeripheral, didDiscoverServices error: Error?) {
         print("*******************************************************")
 
@@ -214,22 +212,6 @@ class BLEDevicesViewController : UIViewController, CBCentralManagerDelegate, CBP
         for characteristic in characteristics {
             //looks for the right characteristic
 
-            /*
-            if characteristic.uuid.isEqual(BLE_Characteristic_uuid_Rx)  {
-                rxCharacteristic = characteristic
-
-                //Once found, subscribe to the this particular characteristic...
-                peripheral.setNotifyValue(true, for: rxCharacteristic!)
-                // We can return after calling CBPeripheral.setNotifyValue because CBPeripheralDelegate's
-                // didUpdateNotificationStateForCharacteristic method will be called automatically
-                peripheral.readValue(for: characteristic)
-                print("Rx Characteristic: \(characteristic.uuid)")
-            }
-            if characteristic.uuid.isEqual(BLE_Characteristic_uuid_Tx){
-                txCharacteristic = characteristic
-                print("Tx Characteristic: \(characteristic.uuid)")
-            }
- */
             print("Characteristic: \(characteristic.uuid)")
             peripheral.discoverDescriptors(for: characteristic)
             print("value: \(peripheral.readValue(for: characteristic))")
@@ -313,8 +295,6 @@ class BLEDevicesViewController : UIViewController, CBCentralManagerDelegate, CBP
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.peripherals.count
     }
-
-    //var names = ["Rosi", "Rex", "Rudolph", "Ron", "Ralf", "Rene", "Roy", "Remi", "Ross", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "...", "..."]
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //Connect to device where the peripheral is connected

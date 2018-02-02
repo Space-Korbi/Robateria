@@ -11,18 +11,14 @@
 		8F089AA7200BA0AE0066F113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F089AA5200BA0AE0066F113 /* Main.storyboard */; };
 		8F089AA9200BA0AE0066F113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F089AA8200BA0AE0066F113 /* Assets.xcassets */; };
 		8F089AAC200BA0AE0066F113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F089AAA200BA0AE0066F113 /* LaunchScreen.storyboard */; };
+		8F3340E42024F66D00163A13 /* UUIDKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3340E32024F66D00163A13 /* UUIDKey.swift */; };
+		8F3340E62024F92D00163A13 /* PeripheralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3340E52024F92D00163A13 /* PeripheralTableViewCell.swift */; };
 		8F348E88200E17530004A6DF /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F348E87200E17530004A6DF /* Books.swift */; };
 		8F348E8A200E1F460004A6DF /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F348E89200E1F460004A6DF /* BookCollectionViewCell.swift */; };
-		8F5A55322022902B00578CAD /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5A55312022902B00578CAD /* WebViewController.swift */; };
 		8F63EB65200BAD2300BEBC46 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F63EB64200BAD2300BEBC46 /* CoreBluetooth.framework */; };
 		8F63EB67200BAE9D00BEBC46 /* BLEDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F63EB66200BAE9D00BEBC46 /* BLEDevicesViewController.swift */; };
 		8F63EB6D200BD67800BEBC46 /* CommunicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F63EB6C200BD67800BEBC46 /* CommunicationViewController.swift */; };
-		8F966E9F20141865007B461E /* WifiConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F966E9E20141865007B461E /* WifiConnectionManager.swift */; };
-		8F966EA8201418AC007B461E /* UUIDKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F966EA7201418AC007B461E /* UUIDKey.swift */; };
-		8F9C03D52014353500ABEE0C /* PeerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C03D42014353500ABEE0C /* PeerTableViewCell.swift */; };
-		8F9C03D72014416C00ABEE0C /* WifiDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C03D62014416C00ABEE0C /* WifiDevicesViewController.swift */; };
 		8FDE1DEB202318E500D27152 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE1DEA202318E500D27152 /* BooksViewController.swift */; };
-		8FFE8EA82023558800B16133 /* PeripheralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE8EA72023558800B16133 /* PeripheralTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,18 +28,14 @@
 		8F089AA8200BA0AE0066F113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F089AAB200BA0AE0066F113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F089AAD200BA0AE0066F113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3340E32024F66D00163A13 /* UUIDKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UUIDKey.swift; sourceTree = "<group>"; };
+		8F3340E52024F92D00163A13 /* PeripheralTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralTableViewCell.swift; sourceTree = "<group>"; };
 		8F348E87200E17530004A6DF /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 		8F348E89200E1F460004A6DF /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
-		8F5A55312022902B00578CAD /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		8F63EB64200BAD2300BEBC46 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		8F63EB66200BAE9D00BEBC46 /* BLEDevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEDevicesViewController.swift; sourceTree = "<group>"; };
 		8F63EB6C200BD67800BEBC46 /* CommunicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationViewController.swift; sourceTree = "<group>"; };
-		8F966E9E20141865007B461E /* WifiConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiConnectionManager.swift; sourceTree = "<group>"; };
-		8F966EA7201418AC007B461E /* UUIDKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDKey.swift; sourceTree = "<group>"; };
-		8F9C03D42014353500ABEE0C /* PeerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerTableViewCell.swift; sourceTree = "<group>"; };
-		8F9C03D62014416C00ABEE0C /* WifiDevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiDevicesViewController.swift; sourceTree = "<group>"; };
 		8FDE1DEA202318E500D27152 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
-		8FFE8EA72023558800B16133 /* PeripheralTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +70,7 @@
 		8F089AA0200BA0AE0066F113 /* Robateria */ = {
 			isa = PBXGroup;
 			children = (
-				8F966EAA20141902007B461E /* Data */,
+				8F966EAA20141902007B461E /* Books */,
 				8F966EA02014186F007B461E /* BLE */,
 				8F966EA9201418F2007B461E /* Wifi */,
 				8F089AA8200BA0AE0066F113 /* Assets.xcassets */,
@@ -101,9 +93,9 @@
 		8F966EA02014186F007B461E /* BLE */ = {
 			isa = PBXGroup;
 			children = (
-				8FFE8EA72023558800B16133 /* PeripheralTableViewCell.swift */,
+				8F3340E52024F92D00163A13 /* PeripheralTableViewCell.swift */,
 				8F63EB66200BAE9D00BEBC46 /* BLEDevicesViewController.swift */,
-				8F966EA7201418AC007B461E /* UUIDKey.swift */,
+				8F3340E32024F66D00163A13 /* UUIDKey.swift */,
 				8F63EB6C200BD67800BEBC46 /* CommunicationViewController.swift */,
 			);
 			path = BLE;
@@ -112,22 +104,18 @@
 		8F966EA9201418F2007B461E /* Wifi */ = {
 			isa = PBXGroup;
 			children = (
-				8F966E9E20141865007B461E /* WifiConnectionManager.swift */,
-				8F9C03D62014416C00ABEE0C /* WifiDevicesViewController.swift */,
-				8F9C03D42014353500ABEE0C /* PeerTableViewCell.swift */,
-				8F5A55312022902B00578CAD /* WebViewController.swift */,
 				8FDE1DEA202318E500D27152 /* BooksViewController.swift */,
 			);
 			path = Wifi;
 			sourceTree = "<group>";
 		};
-		8F966EAA20141902007B461E /* Data */ = {
+		8F966EAA20141902007B461E /* Books */ = {
 			isa = PBXGroup;
 			children = (
 				8F348E87200E17530004A6DF /* Books.swift */,
 				8F348E89200E1F460004A6DF /* BookCollectionViewCell.swift */,
 			);
-			path = Data;
+			path = Books;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,17 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9C03D52014353500ABEE0C /* PeerTableViewCell.swift in Sources */,
+				8F3340E42024F66D00163A13 /* UUIDKey.swift in Sources */,
 				8F63EB67200BAE9D00BEBC46 /* BLEDevicesViewController.swift in Sources */,
 				8F348E8A200E1F460004A6DF /* BookCollectionViewCell.swift in Sources */,
-				8FFE8EA82023558800B16133 /* PeripheralTableViewCell.swift in Sources */,
-				8F9C03D72014416C00ABEE0C /* WifiDevicesViewController.swift in Sources */,
 				8F089AA2200BA0AE0066F113 /* AppDelegate.swift in Sources */,
 				8F348E88200E17530004A6DF /* Books.swift in Sources */,
-				8F966E9F20141865007B461E /* WifiConnectionManager.swift in Sources */,
+				8F3340E62024F92D00163A13 /* PeripheralTableViewCell.swift in Sources */,
 				8F63EB6D200BD67800BEBC46 /* CommunicationViewController.swift in Sources */,
-				8F966EA8201418AC007B461E /* UUIDKey.swift in Sources */,
-				8F5A55322022902B00578CAD /* WebViewController.swift in Sources */,
 				8FDE1DEB202318E500D27152 /* BooksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

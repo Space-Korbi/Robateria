@@ -241,6 +241,9 @@
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cd1-OK-0s7">
                                                 <rect key="frame" x="41" y="0.0" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="ledSwitch:" destination="Su7-8E-sKi" eventType="valueChanged" id="iBK-hx-ry7"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -252,18 +255,27 @@
                                                 <state key="normal" title="Red">
                                                     <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="redButton:" destination="Su7-8E-sKi" eventType="touchUpInside" id="WQm-CR-GB6"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPG-IB-BS5">
                                                 <rect key="frame" x="80" y="0.0" width="42" height="30"/>
                                                 <state key="normal" title="Green">
                                                     <color key="titleColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="greenButton:" destination="Su7-8E-sKi" eventType="touchUpInside" id="lZp-0h-3UL"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQY-5J-rUp">
                                                 <rect key="frame" x="172" y="0.0" width="31" height="30"/>
                                                 <state key="normal" title="Blue">
                                                     <color key="titleColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="blueButton:" destination="Su7-8E-sKi" eventType="touchUpInside" id="xEX-qR-jW3"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -406,6 +418,9 @@
                                                 <state key="normal" title="Computer Graphics">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="book6:" destination="Su7-8E-sKi" eventType="touchUpInside" id="gur-qZ-sOd"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ld8-bq-08y">
                                                 <rect key="frame" x="0.0" y="162" width="160" height="40"/>
@@ -415,7 +430,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="book6:" destination="Su7-8E-sKi" eventType="touchUpInside" id="ch0-3N-Zqv"/>
+                                                    <action selector="book8:" destination="Su7-8E-sKi" eventType="touchUpInside" id="LRm-K5-Gaq"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53e-gT-hY3">
@@ -426,7 +441,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="book8:" destination="Su7-8E-sKi" eventType="touchUpInside" id="Mdg-S8-PJb"/>
+                                                    <action selector="book10:" destination="Su7-8E-sKi" eventType="touchUpInside" id="Xg6-y5-ht0"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lR-cI-18L">
@@ -437,8 +452,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="book10:" destination="Su7-8E-sKi" eventType="touchUpInside" id="oUJ-rh-7sg"/>
-                                                    <action selector="book12:" destination="Su7-8E-sKi" eventType="touchUpInside" id="0TQ-9k-pAg"/>
+                                                    <action selector="book12:" destination="Su7-8E-sKi" eventType="touchUpInside" id="JhL-bk-aPo"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEF-Yh-bBQ">
@@ -449,7 +463,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="book16:" destination="Su7-8E-sKi" eventType="touchUpInside" id="0hc-77-n7z"/>
+                                                    <action selector="book14:" destination="Su7-8E-sKi" eventType="touchUpInside" id="JgI-Uk-nTR"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igl-wa-4sj">
@@ -460,7 +474,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="book14:" destination="Su7-8E-sKi" eventType="touchUpInside" id="iUM-lZ-1Y3"/>
+                                                    <action selector="book16:" destination="Su7-8E-sKi" eventType="touchUpInside" id="UVr-Jw-LCm"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -483,6 +497,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Books" id="MO3-Eb-bJY"/>
+                    <connections>
+                        <outlet property="ledSwitch" destination="cd1-OK-0s7" id="MXU-4d-w44"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jCs-AZ-H4E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
