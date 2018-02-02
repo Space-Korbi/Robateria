@@ -70,6 +70,9 @@ By clicking on any of the books all we do is refresh the url and send a  new req
 * Bluetooth
 If you like a detailed look on how the Bluetooth connection works look at these tutorials:
 
-If you want to add more functionality to it, you can do so in CommunicationViewController.swift. Simply add, delete or change the books and the coordinates (Note: changing the names of the books in this class will not change the names displayed to the user). Each book has its own function in which it takes the coordinates from the array of books, creates a data object and sends that data object to the robot.
+If you want to add more functionality, you can do so in CommunicationViewController.swift. Simply add, delete or change the books and the coordinates (Note: changing the names of the books in this class will not change the names displayed to the user). Each book has its own function in which it takes the coordinates from the array of books, creates a data object and sends that data object to the robot.
+
+![bildschirmfoto 2018-02-02 um 23 23 16](https://user-images.githubusercontent.com/32970755/35757824-21994c36-0871-11e8-9b7c-692f72d7ff6c.png)
+
 Since there is no functionality in the project zero example to handle the coordinates, the robot is not doing anything. So far, controlling the LED is the only functionlity supported.
 
