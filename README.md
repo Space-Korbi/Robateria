@@ -74,5 +74,5 @@ If you want to add more functionality, you can do so in CommunicationViewControl
 
 ![bildschirmfoto 2018-02-02 um 23 23 16](https://user-images.githubusercontent.com/32970755/35757824-21994c36-0871-11e8-9b7c-692f72d7ff6c.png)
 
-Since there is no functionality in the project zero example to handle the coordinates, the robot is not doing anything. So far, controlling the LED is the only functionlity supported.
+Since there is no functionality in the project zero example to handle the recieved coordinates, the robot is not going to move when selecting one of the books while connected over Bluetooth. So far, controlling the LED is the only functionlity supported. It is up to you to modify the project zero in CCS in order to add more functionality.
 
