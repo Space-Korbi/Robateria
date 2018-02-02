@@ -21,7 +21,7 @@ Import the project into CCS Cloud and run it on the MSP432 LaunchPad.
 
 ## Running the App
 
-* MSP432 connected to CC3100
+### MSP432 connected to CC3100
 
 Run the Robateria app and select “Wifi” as connectivity option.
 
@@ -38,7 +38,7 @@ You will be presented with the 16 example books, that are available in our examp
 
 
 
-* MSP432 connected to CC2650
+### MSP432 connected to CC2650
 
 Run the Robateria app and select “Bluetooth” as connectivity option.
 
@@ -58,7 +58,7 @@ Clicking the LED switch or one of the buttons will turn the LED off/on or change
 If you like to change, add or delete some of the user interface items, you can do so in the storyboard editor.
 In order to change the functionality there are several different classes to consider, depending on the connection used.
 
-* Wifi
+### Wifi
 
 All the Wifi functionality can be found in BooksViewController.swift. We begin by initializing the view and setting up the initial url under which we can access the robot. It is simply the ip-address: 192.168.1.1
 After that we send a request with that url via a hidden webView. 
@@ -67,7 +67,7 @@ After that we send a request with that url via a hidden webView.
 
 By clicking on any of the books all we do is refresh the url and send a  new request to the webView. The robot recieves the new url request and executes the logic, that is connected with that request. In case of the first book the url is 192.168.1.1/1. If more functionality is added to the robot, you simply have to change the url in the app to match the url that is specified in the code in energia.
 
-* Bluetooth
+### Bluetooth
 If you like a detailed look on how the Bluetooth connection works look at these tutorials:
 
 If you want to add more functionality, you can do so in CommunicationViewController.swift. Simply add, delete or change the books and the coordinates (Note: changing the names of the books in this class will not change the names displayed to the user). Each book has its own function in which it takes the coordinates from the array of books, creates a data object and sends that data object to the robot.
