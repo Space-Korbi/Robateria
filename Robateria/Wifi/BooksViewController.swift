@@ -28,111 +28,111 @@ class BooksViewController: UIViewController {
     //Clicking a button will reset the URL with the coresponding coordinates and reload the webView
 
     @IBAction func leftButton1(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/GH")
+        let url = URL(string:"http://192.168.1.1/1")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func rightButton1(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/GL")
+        let url = URL(string:"http://192.168.1.1/2")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func leftButton2(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/RH")
+        let url = URL(string:"http://192.168.1.1/3")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func rightButton2(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/RL")
+        let url = URL(string:"http://192.168.1.1/4")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func leftButton3(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/YH")
+        let url = URL(string:"http://192.168.1.1/5")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func rightButton3(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/YL")
+        let url = URL(string:"http://192.168.1.1/6")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func leftButton4(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/GH")
+        let url = URL(string:"http://192.168.1.1/7")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func rightButton4(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/GL")
+        let url = URL(string:"http://192.168.1.1/8")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
     @IBAction func leftButton5(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/GH")
+        let url = URL(string:"http://192.168.1.1/9")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func rightButton5(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/GL")
+        let url = URL(string:"http://192.168.1.1/10")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func leftButton6(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/GH")
+        let url = URL(string:"http://192.168.1.1/11")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func rightButton6(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/GL")
+        let url = URL(string:"http://192.168.1.1/12")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func leftButton7(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/GH")
+        let url = URL(string:"http://192.168.1.1/13")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func rightButton7(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/GL")
+        let url = URL(string:"http://192.168.1.1/14")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func leftButton8(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/GH")
+        let url = URL(string:"http://192.168.1.1/15")
         let request = URLRequest(url: url!)
 
         webView.load(request)
     }
 
     @IBAction func rightButton8(_ sender: Any) {
-        let url = URL(string:"http://192.168.1.1/GL")
+        let url = URL(string:"http://192.168.1.1/16")
         let request = URLRequest(url: url!)
 
         webView.load(request)

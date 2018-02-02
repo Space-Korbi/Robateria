@@ -18,11 +18,11 @@
 		8F63EB67200BAE9D00BEBC46 /* BLEDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F63EB66200BAE9D00BEBC46 /* BLEDevicesViewController.swift */; };
 		8F63EB6D200BD67800BEBC46 /* CommunicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F63EB6C200BD67800BEBC46 /* CommunicationViewController.swift */; };
 		8F966E9F20141865007B461E /* WifiConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F966E9E20141865007B461E /* WifiConnectionManager.swift */; };
-		8F966EA620141889007B461E /* PeripheralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F966EA520141889007B461E /* PeripheralTableViewCell.swift */; };
 		8F966EA8201418AC007B461E /* UUIDKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F966EA7201418AC007B461E /* UUIDKey.swift */; };
 		8F9C03D52014353500ABEE0C /* PeerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C03D42014353500ABEE0C /* PeerTableViewCell.swift */; };
 		8F9C03D72014416C00ABEE0C /* WifiDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C03D62014416C00ABEE0C /* WifiDevicesViewController.swift */; };
 		8FDE1DEB202318E500D27152 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE1DEA202318E500D27152 /* BooksViewController.swift */; };
+		8FFE8EA82023558800B16133 /* PeripheralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE8EA72023558800B16133 /* PeripheralTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,11 +39,11 @@
 		8F63EB66200BAE9D00BEBC46 /* BLEDevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEDevicesViewController.swift; sourceTree = "<group>"; };
 		8F63EB6C200BD67800BEBC46 /* CommunicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationViewController.swift; sourceTree = "<group>"; };
 		8F966E9E20141865007B461E /* WifiConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiConnectionManager.swift; sourceTree = "<group>"; };
-		8F966EA520141889007B461E /* PeripheralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PeripheralTableViewCell.swift; path = "../../../Basic-Chat-master/Basic Chat/PeripheralTableViewCell.swift"; sourceTree = "<group>"; };
 		8F966EA7201418AC007B461E /* UUIDKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDKey.swift; sourceTree = "<group>"; };
 		8F9C03D42014353500ABEE0C /* PeerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerTableViewCell.swift; sourceTree = "<group>"; };
 		8F9C03D62014416C00ABEE0C /* WifiDevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiDevicesViewController.swift; sourceTree = "<group>"; };
 		8FDE1DEA202318E500D27152 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		8FFE8EA72023558800B16133 /* PeripheralTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		8F966EA02014186F007B461E /* BLE */ = {
 			isa = PBXGroup;
 			children = (
-				8F966EA520141889007B461E /* PeripheralTableViewCell.swift */,
+				8FFE8EA72023558800B16133 /* PeripheralTableViewCell.swift */,
 				8F63EB66200BAE9D00BEBC46 /* BLEDevicesViewController.swift */,
 				8F966EA7201418AC007B461E /* UUIDKey.swift */,
 				8F63EB6C200BD67800BEBC46 /* CommunicationViewController.swift */,
@@ -205,13 +205,13 @@
 				8F9C03D52014353500ABEE0C /* PeerTableViewCell.swift in Sources */,
 				8F63EB67200BAE9D00BEBC46 /* BLEDevicesViewController.swift in Sources */,
 				8F348E8A200E1F460004A6DF /* BookCollectionViewCell.swift in Sources */,
+				8FFE8EA82023558800B16133 /* PeripheralTableViewCell.swift in Sources */,
 				8F9C03D72014416C00ABEE0C /* WifiDevicesViewController.swift in Sources */,
 				8F089AA2200BA0AE0066F113 /* AppDelegate.swift in Sources */,
 				8F348E88200E17530004A6DF /* Books.swift in Sources */,
 				8F966E9F20141865007B461E /* WifiConnectionManager.swift in Sources */,
 				8F63EB6D200BD67800BEBC46 /* CommunicationViewController.swift in Sources */,
 				8F966EA8201418AC007B461E /* UUIDKey.swift in Sources */,
-				8F966EA620141889007B461E /* PeripheralTableViewCell.swift in Sources */,
 				8F5A55322022902B00578CAD /* WebViewController.swift in Sources */,
 				8FDE1DEB202318E500D27152 /* BooksViewController.swift in Sources */,
 			);
