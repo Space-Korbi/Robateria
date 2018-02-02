@@ -56,9 +56,9 @@ Clicking the LED switch or one of the buttons will turn the LED off/on or change
 
 ## Extent/Modify the Code
 
+* Wifi
 
 
-
-
+* Bluetooth
 
 
