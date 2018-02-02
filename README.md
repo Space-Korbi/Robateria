@@ -55,9 +55,18 @@ You will be presented with a screen that has 16 example books, an LED switch and
 Clicking the LED switch or one of the buttons will turn the LED off/on or change its color. Selecting a book will send the coordinates of the Book to the MSP432 but since the functionality of the robot was developed in Energia, it is up to the experienced experienced developer to transfer the code from Energia into CCS. As the connection and data transfer is already provided by the app and the project zero example, only the line following and the coordinate system has to be implemented. More details, examples and extensive instructions on the the bluetooth connectivity can be found on https://www.hackster.io/measley2/ble-iot-workshop-for-ti-launchpad-and-sensors-boosterpack-5fdf05.
 
 ## Extent/Modify the Code
+If you like to change, add or delete some of the user interface items, you can do so in the storyboard editor.
+In order to change the functionality there are several different classes to consider, depending on the connection used.
 
 * Wifi
 
+All the Wifi functionality can be found in BooksViewController.swift. We begin by initializing the view and setting up the initial url under which we can access the robot. It is simply the ip-address: 192.168.1.1
+After that we send a request with that url via a hidden webView. By clicking on any of the books all we do is refresh the url and send a  new request to the webView. 
+
+
+![bildschirmfoto 2018-02-02 um 23 04 21](https://user-images.githubusercontent.com/32970755/35757295-b4630712-086e-11e8-9b67-c50c63325f70.png)
+
+The robot recieves the new url request and executes the logic, that is connected with that request. In case of the first book the url is 192.168.1.1/1. If more functionality is added to the robot, you simply have to change the url in the app to match the url that is connected with the added functionality.
 
 * Bluetooth
 
