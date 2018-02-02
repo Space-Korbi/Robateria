@@ -37,7 +37,10 @@ You will be presented with the 16 example books, that are available in our examp
 ![wifi3](https://user-images.githubusercontent.com/32970755/35755214-9e9af5be-0866-11e8-8dea-c54816d16272.png)
 
 
+
+
 * MSP432 connected to CC2650
+
 If you are scanning for Bluetooth devices now, you should find one device by the name of Project Zero. An easy way to connect to the MSP432 is provided by the Robateria app. To communicate with MSP432 simply launch the Robateria app and select Bluetooth as connection method. 
 
 ![ble1](https://user-images.githubusercontent.com/32970755/35755244-bffa6ece-0866-11e8-8500-81574065dbad.png)
